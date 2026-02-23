@@ -101,9 +101,9 @@ export default function Page2({ currentSection }: Page2Props) {
                     key={num}
                     type="text"
                     name={`engineerName${num}`}
-                    value={
-  (formData[`engineerName${num}` as keyof typeof formData] as string) ?? ""
-}
+                   value={
+                       (formData[`engineerName${num}` as keyof typeof formData] as string) ?? ""
+                  }
                     onChange={handleInputChange}
                     className="px-4 py-2 border rounded-lg"
                     placeholder={`Engineer ${num}`}
