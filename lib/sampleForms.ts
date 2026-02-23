@@ -3,76 +3,51 @@ import tstGasBlueprint from '@/data/form-blueprints/tst-gas.json';
 import repairOverhaulingBlueprint from '@/data/form-blueprints/repair-overhauling.json';
 import type { CompletedForm } from './formStorage';
 
-// Ensure JSON imports are properly structured
-const ensureBlueprint = (blueprint: Record<string, unknown> | unknown[]) => {
+/**
+ * Ensures imported JSON blueprints always return
+ * a valid Record<string, unknown> structure
+ */
+const ensureBlueprint = (
+  blueprint: unknown
+): Record<string, unknown> => {
   let data: unknown;
 
-  // Handle both default export and direct import safely
+  // Handle both default export and direct JSON import
   if (
-    typeof blueprint === "object" &&
+    typeof blueprint === 'object' &&
     blueprint !== null &&
     !Array.isArray(blueprint) &&
-    "default" in blueprint
+    'default' in blueprint
   ) {
     data = (blueprint as { default: unknown }).default;
   } else {
     data = blueprint;
   }
 
-  // Debug: Log the structure to understand what we're getting
-  if (process.env.NODE_ENV === "development") {
-    console.log("ensureBlueprint input:", {
-      hasDefault:
-        typeof blueprint === "object" &&
-        blueprint !== null &&
-        !Array.isArray(blueprint) &&
-        "default" in blueprint,
-      directType: typeof blueprint,
-      directKeys:
-        blueprint && typeof blueprint === "object"
-          ? Object.keys(blueprint)
-          : [],
-      dataType: typeof data,
-      dataKeys:
-        data && typeof data === "object"
-          ? Object.keys(data as Record<string, unknown>)
-          : [],
-      hasFields:
-        data &&
-        typeof data === "object" &&
-        "fields" in data,
-      fieldsLength:
-        data &&
-        typeof data === "object" &&
-        "fields" in data &&
-        Array.isArray((data as any).fields)
-          ? (data as any).fields.length
-          : 0,
-    });
-  }
-
-  // Ensure it has the fields structure
+  // If structure contains fields array
   if (
-    data &&
-    typeof data === "object" &&
-    "fields" in data &&
-    Array.isArray((data as any).fields)
+    typeof data === 'object' &&
+    data !== null &&
+    !Array.isArray(data) &&
+    'fields' in data &&
+    Array.isArray((data as { fields: unknown }).fields)
   ) {
-    return { fields: (data as any).fields };
+    return {
+      fields: (data as { fields: unknown[] }).fields,
+    };
   }
 
-  // If it's already the fields array, wrap it
+  // If JSON itself is an array → wrap it
   if (Array.isArray(data)) {
     return { fields: data };
   }
 
-  // If data is an object but doesn't have fields, return as-is
-  if (data && typeof data === "object") {
-    return data;
+  // If it's already a plain object
+  if (typeof data === 'object' && data !== null) {
+    return data as Record<string, unknown>;
   }
 
-  // Fallback
-  console.warn("ensureBlueprint: Unexpected structure, returning empty fields");
+  // Final fallback
   return { fields: [] };
 };
 
