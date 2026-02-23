@@ -1,0 +1,26 @@
+{
+  "fields": [
+    { "query": "date of visit", "value": "2026-01-18" },
+    { "query": "mco number", "value": "MCO-12345" },
+    { "query": "work order no", "value": "WO-67890" },
+    { "query": "concern", "value": "Cylinder head gasket check" },
+    { "query": "customer", "value": "ABC Industries" },
+    { "query": "location", "value": "Dhaka" },
+    { "query": "total person", "value": "3" },
+    { "query": "engine model", "value": "G3516B" },
+    { "query": "serial no", "value": "16751" },
+    { "query": "arr. no", "value": "ARR-12345" },
+    { "query": "oil brand", "value": "CAT Oil" },
+    { "query": "smu", "value": "27,523" },
+    { "query": "load (kw)", "value": "500" },
+    { "query": "rpm", "value": "1500" },
+    { "query": "voltage", "value": "415" },
+    { "query": "travel time", "value": "1.5" },
+    { "query": "working time", "value": "5.0" },
+    { "query": "total km", "value": "120" },
+    { "query": "customer complain", "value": "Scheduled Maintenance." },
+    { "query": "air/fuel ratio", "value": "Adjusted at 17%" }
+  ]
+}
+
+

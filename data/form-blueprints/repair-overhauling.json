@@ -1,0 +1,80 @@
+{
+  "fields": [
+    { "query": "work order no", "value": "WO-RO-001" },
+    { "query": "mco no", "value": "MCO-001" },
+    { "query": "type of repair", "value": "Top-End Overhauling" },
+    { "query": "date", "value": "2026-02-08" },
+    
+    { "query": "service engineer 1 name", "value": "Mohammad Hasan" },
+    { "query": "service engineer 1 id", "value": "ENG-001" },
+    { "query": "service engineer 2 name", "value": "Ahmed Ali" },
+    { "query": "service engineer 2 id", "value": "ENG-002" },
+    { "query": "service engineer 3 name", "value": "Karim Khan" },
+    { "query": "service engineer 3 id", "value": "ENG-003" },
+    
+    { "query": "customer name", "value": "ABC Manufacturing Ltd." },
+    { "query": "location", "value": "Dhaka" },
+    
+    { "query": "start time", "value": "09:00" },
+    { "query": "start date", "value": "2026-02-08" },
+    { "query": "stop time", "value": "17:00" },
+    { "query": "stop date", "value": "2026-02-08" },
+    { "query": "traveling time", "value": "1.5" },
+    
+    { "query": "working time", "value": "8" },
+    
+    { "query": "driver name", "value": "Mr. Shikder" },
+    { "query": "vehicle no", "value": "DH-A-1234" },
+    { "query": "start km", "value": "5000" },
+    { "query": "end km", "value": "5150" },
+    { "query": "total km", "value": "150" },
+    
+    { "query": "date of visit", "value": "2026-02-08" },
+    { "query": "work order number", "value": "WO-RO-001" },
+    { "query": "engineer name 1", "value": "Mohammad Hasan" },
+    { "query": "engineer name 2", "value": "Ahmed Ali" },
+    { "query": "engineer name 3", "value": "Karim Khan" },
+    
+    { "query": "customer name", "value": "ABC Manufacturing Ltd." },
+    { "query": "location", "value": "Dhaka" },
+    { "query": "pssd name", "value": "Mr. Raihan" },
+    
+    { "query": "engine model", "value": "G3516B" },
+    { "query": "engine serial no", "value": "16751" },
+    { "query": "arrangement no", "value": "ARR-001" },
+    { "query": "smu", "value": "27523" },
+    { "query": "rpm", "value": "1500" },
+    { "query": "detonation level", "value": "4.2" },
+    
+    { "query": "voltage", "value": "415" },
+    { "query": "load", "value": "500" },
+    { "query": "frequency", "value": "50" },
+    { "query": "jw temp", "value": "70" },
+    { "query": "ac temp", "value": "45" },
+    { "query": "oil pressure", "value": "4.5" },
+    
+    { "query": "top end", "value": "true" },
+    { "query": "in frame", "value": "false" },
+    
+    { "query": "engine history", "value": "Engine was running smoothly with no major issues reported. Regular maintenance has been performed as scheduled." },
+    { "query": "customer rep name", "value": "Mr. Hossain" },
+    { "query": "designation", "value": "Manager" },
+    
+    { "query": "engine speed actual", "value": "1500" },
+    { "query": "engine smu actual", "value": "27523" },
+    { "query": "oil pressure actual", "value": "4.5" },
+    { "query": "load actual", "value": "500" },
+    { "query": "manifold temp actual", "value": "75" },
+    { "query": "manifold pressure actual", "value": "2.5" },
+    
+    { "query": "emcp volts l1", "value": "415" },
+    { "query": "emcp volts l2", "value": "415" },
+    { "query": "emcp volts l3", "value": "415" },
+    
+    { "query": "emcp amps l1", "value": "450" },
+    { "query": "emcp amps l2", "value": "450" },
+    { "query": "emcp amps l3", "value": "450" },
+    
+    { "query": "emcp pf", "value": "0.85" }
+  ]
+}

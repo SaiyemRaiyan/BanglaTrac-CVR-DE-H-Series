@@ -1,0 +1,82 @@
+{
+  "fields": [
+    { "query": "date of visit", "value": "2026-01-18" },
+    { "query": "mco number", "value": "MCO-TST-009" },
+    { "query": "work order no", "value": "WO-TST-009" },
+    { "query": "concern psse", "value": "Predictive maintenance follow-up and vibration logging" },
+    { "query": "total person(s)", "value": "3" },
+    { "query": "sl. no", "value": "TST-GAS-009" },
+    { "query": "engineer 1", "value": "Farhan Arafat" },
+    { "query": "engineer 2", "value": "Nadia Rahman" },
+    { "query": "customer's name", "value": "Greenfield Power Ltd." },
+    { "query": "location", "value": "Dhaka - Mirpur" },
+    { "query": "travel time hrs", "value": "1.5" },
+    { "query": "working time hrs", "value": "7.0" },
+    { "query": "total km", "value": "120" },
+    { "query": "total time hrs", "value": "8.5" },
+    { "query": "time start", "value": "08:00" },
+    { "query": "time stop", "value": "16:30" },
+    { "query": "travel job description", "value": "Diagnostics, compression test, and vibration logging" },
+    { "query": "hrs", "value": "8.5" },
+    {
+      "query": "customer complaint problem description",
+      "value": "Engine misfires on load and reports elevated exhaust temperature during peak hours."
+    },
+    { "query": "model", "value": "G3516B" },
+    { "query": "smu", "value": "25,620" },
+    { "query": "volt/freq", "value": "415V / 50Hz" },
+    { "query": "oil brand", "value": "CAT DEO 15W-40" },
+    { "query": "serial no", "value": "G3516B-9985" },
+    { "query": "kw", "value": "550" },
+    { "query": "rpm", "value": "1500" },
+    { "query": "arr no", "value": "ARR-2026-33" },
+    { "query": "amp", "value": "420" },
+    { "query": "pressure", "value": "55 PSI" },
+    { "query": "fuel pressure after prv", "value": "3.6 bar" },
+    { "query": "turbo inlet temp", "value": "215°C" },
+    { "query": "inlet temp", "value": "35°C" },
+    { "query": "engine room temperature", "value": "38°C" },
+    { "query": "air inlet to alternator", "value": "36°C" },
+    { "query": "air inlet to engine", "value": "34°C" },
+    { "query": "alternator bearing temperature", "value": "58°C" },
+    { "query": "alternator winding temperature", "value": "63°C" },
+    { "query": "describe leakage details", "value": "No leakage observed; clamps remain tight." },
+    { "query": "compensator condition of exhaust line", "value": "Good" },
+    { "query": "fuel line", "value": "Clean and pressurized" },
+    { "query": "coolant line", "value": "Dry and tight" },
+    {
+      "query": "describe work performed",
+      "value": "Full diagnostics, compression sweep, vibration logging, and filter renewal."
+    },
+    { "query": "list spare parts used", "value": "Air filter, fuel filter, oil seals" },
+    {
+      "query": "future work parts recommendation",
+      "value": "Schedule alternator bearing vibration check on the next visit."
+    },
+    { "query": "bill amount", "value": "0" },
+    { "query": "invoice number", "value": "N/A" },
+    { "query": "money receipt no", "value": "N/A" },
+    { "query": "1st arrival departure time", "value": "2026-01-18" },
+    { "query": "final departure", "value": "16:30" },
+    { "query": "no of persons attended", "value": "2" },
+    { "query": "nights", "value": "0" },
+    {
+      "query": "other comments",
+      "value": "Customer provided immediate access and appreciated the quick response."
+    },
+    { "query": "customer representative name", "value": "Md. Tareq Aziz" },
+    { "query": "designation", "value": "Operations Manager" },
+    { "query": "signature seal date", "value": "Signed & Stamped 2026-01-18" },
+    { "query": "customer maintain log sheet", "value": "Logged entry TST-009 in the maintenance book." },
+    { "query": "reason", "value": "All vibration readings stayed within tolerance during the visit." },
+    {
+      "query": "reason use reverse for detail comments",
+      "value": "Additional observations recorded on the reverse side of the form."
+    },
+    {
+      "query": "comments if any",
+      "value": "Recommend a follow-up alternator alignment check in 30 days."
+    }
+  ]
+}
+
